@@ -1,6 +1,6 @@
 .becgraund{
     background-color:gray;
-   padding: 20px 30px;
+    padding: 20px 30px;
 }
 
 .button{
@@ -19,7 +19,7 @@
  
     transition-property: background-color, border-color;
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(.17,.67,.83,.67);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
     &:hover,
     &:focus{
@@ -47,8 +47,6 @@
     background-color:rgba(0, 0, 0, 0.4);
 }
 }
-
-
 .button-reservation{
     padding: 18px auto;
     width: 434px;
@@ -66,7 +64,7 @@
  
     transition-property: background-color, border-color, color;
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(.17,.67,.83,.67);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
     &:hover,
     &:focus{
